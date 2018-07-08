@@ -15,7 +15,7 @@
 #container{
     width: 980px;
     min-height: 500px;
-    background: linear-gradient(#e3e3e3,#ffffff);
+    background: linear-gradient(#dcdbdb,#ffffff,#ffffff);
 }
 
 .h1{
@@ -115,7 +115,7 @@ h5{     /*styles all h5 with format below*/
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
-    background: linear-gradient(#79d0df,#35c8df,#79d0df);
+    background: linear-gradient(#008299,#35c8df,#79d0df);
 }
 
 .main{   /*Formats the main section on the right middle of the page*/
@@ -148,7 +148,7 @@ h5{     /*styles all h5 with format below*/
     display: inline-block;
     margin-left: 420px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact{  /*creates a box to fill in contact info/ ease of placement*/
@@ -182,6 +182,16 @@ h4{    /*change all h4 font-size, margin, and color*/
     width: 250px;
     height: auto;
 }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
 
 .inside{  /*change format of lists with this class*/
     list-style-position: inside;
