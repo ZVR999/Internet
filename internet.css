@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.globe{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#container{
+    width: 980px;
+    min-height: 500px;
+    background: linear-gradient(#e3e3e3,#ffffff);
+}
+
+.h1{
+    font-size: 48px;
+    font-weight: normal;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.red{  /*styles all with the class the color below*/
+    color: #d9241d;
+}
+
+.blue{  /*styles all with the class the color below*/
+    color: #26679f;
+}
+
+h2{
+    background: linear-gradient(#23659e,#5283ad,#23659e);
+    color: white;
+    font-weight: normal;
+    font-size: 34px;
+    padding: 10px 20px;
+}
+
+.sidebar{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h5{     /*styles all h5 with format below*/
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.four{
+    font-size: 14px;
+}
+
+.bold{    /*styles all text selected with format below*/
+    font-weight: bold;
+}
+
+.bluebutton{  /*styles the blue button on left hand side*/
+    margin: 3px;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background: linear-gradient(#6398c3,#23659e);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.50);
+    font-size: 18px;
+}
+
+.orangebutton{  /*styles the orange button on left hand side*/
+    margin: 3px;
+    width: 100%;
+    border: none;
+    padding: 10px 13px;
+    color: white;
+    background: linear-gradient(#eaae57,#ef7300);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.50);
+    font-size: 18px;
+}
+
+.ninjabox{   /*styles the image below the orange button*/
+    padding: 10px;
+    width: 180px;
+    height: auto;
+    background-image: url("images/ad_background.png");
+}
+
+.whitebig{     /*styles text within image on the left side of page */
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.ninja{  /*styles the picture of the ninja on the left side of the page*/
+    width: 70px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.lightbluebutton{  /*styles the light blue button on the left side of page*/
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(#79d0df,#35c8df,#79d0df);
+}
+
+.main{   /*Formats the main section on the right middle of the page*/
+    display: inline-block;
+    vertical-align: top;
+    width: 730px;
+    margin-left: 40px;
+    height: auto;
+}
+
+.house{    /*Formats the 2D gray house*/
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.bluelink{    /*rids links of decoration, colors blue, and adjusts font*/
+    color: #26679f;
+    text-decoration: none;
+    font-size: 16px;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.phone{  /*sets the format for the light blue phone*/
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 420px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.contact{  /*creates a box to fill in contact info/ ease of placement*/
+    text-align: center;
+    width: 195px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.con{     /*styles the phone number in contact section*/
+    font-weight: bold;
+    font-size: 26px;
+    color: #00c0df;
+}
+
+.link{    /*remove underline and color light blue*/
+    color: #0499af;
+    text-decoration: none;
+}
+
+h4{    /*change all h4 font-size, margin, and color*/
+    color: #2869a1;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.client{    /*formats the client server picture in the middle of the page*/
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+}
+
+.inside{  /*change format of lists with this class*/
+    list-style-position: inside;
+    position: relative;
+    left: 25px;
+    width: 705px;
+}
+
+.botbox{   /*formatted box for the code in the bottom of page*/
+    width: 720px;
+    height: auto;
+    border-right: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-top: 5px solid #0085e0;
+    margin-top: 20px;
+}
+
+.hcj{     /*Html, css, js, picture formatted*/
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.botright{     /*formatted box for code in the bot right of page*/
+    width: 525px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}

@@ -1,61 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>The Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="internet.css" />
 </head>
+
 <body>
+    
+    <h1 class="h1">The Inter<span class="blue">net</span></h1>
+                <!--Main Title with last 3 letters selected-->
     <div id="container">
-        <div class="Header">
-            <h1></h1>
-            <h2></h2>
-        </div>
+            <h2>The World Wide Web</h2>
+            <!--Blue bar/title underneath the Main Title-->
+        <img class="globe" src="images/globe.png" alt="A picture of a globe with white connecting lining around it">
         <div class="sidebar">
-            <h5></h5>
-            <p></p>
-            <button></button>
-            <button></button>
-            <hr>
+            <!--Left side of the page from "So," to the img with the ninja-->
+            <h5>So, what's an
+                <span class="red">Internet?</span>
+            </h5>
+            <p class="four">
+                <span class="bold">An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world!</span>
+                <br>
+                <br>
+            </p>
+            <button class="bluebutton">WATCH A VIDEO</button>
+            <button class="orangebutton">MORE RESOURCES</button>
+           <br><br><br><hr><br><br>
             <div class="ninjabox">
-                <p></p>
-                <img src="" alt="">
-                <button></button>
+                <br>
+                <!--the image containing text,img, and button on left side of page-->
+                <p class="whitebig">Reinvent your career in just 14 weeks</p>
+                <img class="ninja" src="images/ninja.png" alt="A picture of a cute little ninja">
+                <button class="lightbluebutton">Learn More >>></button>
             </div>
         </div>
-        <div class="main">
-            <img src="" alt=""><span>DNS</span>
-            <img src="" alt="">
-            <p>
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="main">  <!--all content on the right of page between h2, and blue top border on bottom of page-->
+            <img class="house" src="images/home.png" alt="A picture of a gray 2D house">
+            <a class="bluelink" href="">DNS</a>
+            <img class="phone" src="images/phone.png" alt="A picture of a 2D light blue phone within a light blue circle">
+            <p class="contact">
+                Mon - Fri 9 a.m. - 5 p.m. (EST)
+                <br>
+                <span class="con">855.967.3787</span>
+                <br> International +1.617.963.0555
             </p>
             <hr>
-            <h4></h4>
-            <p></p>
-            <ul>
-                <li></li>
-                <li></li>
+            <h4>Clients and Servers</h4>
+            <p>Computers connected to the
+                <span class="link">Web</span> are called
+                <span class="bold">clients</span> and
+                <span class="bold">servers</span>.
+            </p>
+            <ul class="inside">
+                <li>
+                    <span class="link">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected
+                    to your Wi-Fi, or your phone connected to your mobile network) and
+                    <span class="link">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                <li>
+                    <span class="link">Servers</span> are computers that store
+                    <span class="link">webpages</span>,
+                    <span class="link">sites</span>, or
+                    <span class="link">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from
+                    the server onto the client machine to be displayed in the user's web browser.</li>
             </ul>
-            <img src="" alt="">
-            <h4></h4>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <img class="client" src="images/client_server.jpg" alt="A diagram of the client server relationship">
+            <h4>So What Actually Happens?</h4>
+            <ol class="inside">
+                <li>The browser goes to the
+                    <span class="link">DNS server</span> and finds the real address of the
+                    <span class="link">server</span> that the website lives on.</li>
+                <li>The browser sends an
+                    <span class="link">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                <li>If the server approves the client's request, the server sends the client a
+                    <span class="link">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the
+                    website's files to the browser as a series of small chucks.</li>
+                <li>The browser assembles the small chucks into a complete website and displays it to you!</li>
             </ol>
-            <div class="botbox">
-                <img src="" alt="">
-                <h4></h4>
-                <p>
-                    <br>
-                </p>
+            <div class="botbox">   <!--all information between the 3 borders on the bottom of the page-->
+                <img class="hcj" src="images/html.png" alt="A picture of 3 circles with html, css, and javascript printed on one">
+                <div class="botright">
+                    <h4>The Big 3 - HTML, CSS, JavaScript</h4>
+                    <p>
+                        While the server can process information in many different languages, the files that they serve to the client are
+                        <span
+                            class="ita">always</span> going to be some combination of HTML, CSS, and JavaScript!
+                            <br>
+                            <br>Learn more about the Big 3
+                            <span class="link">here!</span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
