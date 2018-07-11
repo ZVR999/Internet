@@ -4,6 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@primary_color: #23659e;
+
 .globe{
     width: 90px;
     height: 90px;
@@ -34,7 +36,7 @@
 }
 
 h2{
-    background: linear-gradient(#23659e,#5283ad,#23659e);
+    background: linear-gradient(@primary_color,#5283ad, @primary_color);
     color: white;
     font-weight: normal;
     font-size: 34px;
@@ -69,7 +71,7 @@ h5{     /*styles all h5 with format below*/
     border: none;
     padding: 10px 20px;
     color: white;
-    background: linear-gradient(#6398c3,#23659e);
+    background: linear-gradient(#6398c3, @primary_color);
     border-radius: 5px;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.50);
     font-size: 18px;
